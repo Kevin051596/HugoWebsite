@@ -1,0 +1,47 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Side-Project
+  filter: "side-project"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Guanghui Food Website
+  logo: /images/sections/projects/guanghui.png
+  role: Owner
+  timeline: "May 2022 - Present"
+  repo: https://github.com/Kevin051596/guanghui-food-website # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Selling fried buns, black tea and milk tea, posting some pictures about our food and store front view.Beside, it posts some customers comments from Google map.    
+  tags: ["side-project", "Vue.js"]
+
+- name: FRC7636 Website
+  role: Developer
+  timeline: "July 2022 - Present"
+  repo: https://github.com/FRC7636Robomania/Page-7636
+  #url: ""
+  summary: About FRC 7636 movement and contributions in competitions and outreach between 2020 to 2022 and other interesting things about our teams.
+  tags: ["academic","FRC","side-project","Vue.js"]
+
+- name: Galacts Version
+  logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Jan 2021 - Present"
+  repo: https://github.com/Kevin051596/Galacts-Vision
+  summary: It used in FRC 2021 At Home Challenge to solve the problem about identifying how far and how to recycle the targets.
+  tags: ["OpenCV","side-project","FRC","Python"]

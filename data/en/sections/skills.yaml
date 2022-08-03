@@ -1,0 +1,38 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Vue.js
+  logo: "/images/sections/skills/vue-logo.png"
+  summary: "An approachable, performant and versatile framework for building web user interfaces."
+  url: "https://vuejs.org/"
+
+- name: Python OpenCV 
+  logo: "/images/sections/skills/OpenCV-Logo.png"
+  summary: "Using for learning vision programing, connecting with Raspberry Pi to improve its ability."
+  url: "https://opencv.org/"
+
+- name: C++ Programing
+  logo: "/images/sections/skills/C++-logo.png"
+  summary: "The main language used in studying algorithm and programing competition"
+
+- name: Java Programing
+  logo: "/images/sections/skills/Java-Logo.png"
+  summary: "Worked with FRC Robot. Using the features like object oriented, command to improve our automatic process and control reasonably."
+
+- name: Git Management
+  logo: "/images/sections/skills/Git-Logo.png"
+  summary: "Help to manage program versions, and download some useful codes on Github."
+
+- name: Chess Entertainment
+  logo: "/images/sections/skills/Chess-Logo.png"
+  summary: "The entertainment to kill the time such like chess, go are my favorite and capable parts."

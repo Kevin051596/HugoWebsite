@@ -1,0 +1,16 @@
+# some information about you
+name: "Kevin Lin"
+# nickname: ""
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Here is"
+# image: "images/author/john.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "marvelo.k0515@gmail.com"
+  phone: "0908768615"
+
+# some summary about what you do
+summary:
+  - I am a Student in favor of programming.
+  - I am on the way of website programming.
+  - I love to work with some fun projects

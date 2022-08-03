@@ -1,0 +1,48 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: IE Student
+# your company information
+company:
+  name: Feng Chia University
+  url: "https://www.fcu.edu.tw/"
+
+# your resume. this file path should be relative to you "static" directory
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am the student from Feng Chia University. I love network and software program. Thus I make my first website about my family which called [guanghui food website](https://kevin051596.github.io/guanghui-food-website/). It helps us to spread our reputation and get more interest. In the end, I also take my effort on studying algorithm to improve my base program skill.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/Kevin051596"
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/profile.php?id=100009946749327"
+- name: Instagram
+  icon: "fab fa-instagram"
+  url: "https://www.instagram.com/yukai8765/"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Algorithm Experience
+  percentage: 30
+  color: blue
+- name: APP & Website Experience
+  percentage: 80
+  color: sky
+- name: FRC Robot Experience
+  percentage: 60
+  color: green
