@@ -9,7 +9,7 @@ languages:
   en:
     languageName: English
     weight: 1
-
+    
 # Control TOC depth
 markup:
   tableOfContents:
@@ -30,8 +30,14 @@ enableEmoji: true
 
 # Site parameters
 params:
+
+  logo:
+    main: images/unnamed.png
+    inverted: images/unnamed.png
+    favicon: images/unnamed.png
+
   # GitHub repo URL and branch of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/Kevin051596/HugoWebsite.git
   gitBranch: main
 
   # specify whether you want to write some blog posts or not

@@ -5,3 +5,5 @@ section:
   enable: true
   weight: 5
   showOnNavbar: true
+  hideTitle : false
+  numShow: 3

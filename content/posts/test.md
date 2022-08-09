@@ -3,12 +3,12 @@ title: "Test for posting"
 date: 2022-08-02T18:16:28+08:00
 description: Introduction to Sample Post
 draft: false
-hero: /images/posts/writing-posts/hero.svg
+hero: /images/posts/writing-posts/test.jpg
 menu:
   sidebar:
     name: Introduction
     identifier: introduction
-    weight: 10
+    weight: 5
 tags: ["Basic", "Multi-lingual"]
 categories: ["Basic"]
 ---
