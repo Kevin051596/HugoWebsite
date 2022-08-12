@@ -2,7 +2,7 @@
 title: "Problems between Git and Github"
 date: 2022-08-02T18:16:28+08:00
 description: Introduction to Sample Post
-draft: false
+draft: true
 hero: images/posts/writing-posts/git.png
 menu:
   sidebar:

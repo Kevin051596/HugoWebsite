@@ -9,6 +9,7 @@ menu:
     weight: 10
 tags: ["Basic", "Multi-lingual"]
 categories: ["Basic"]
+draft : true
 ---
 
 Greedy algorithm 譯為貪心演算法，或稱貪婪法。  
@@ -22,8 +23,8 @@ Greedy algorithm 譯為貪心演算法，或稱貪婪法。
 ***
 
 #### Codeforces 練習題目
-[1714C Minimum Varied Number /0807](https://codeforces.com/problemset/problem/1714/C)
-[1714B Remove Preflx](https://codeforces.com/problemset/problem/1714/B)
+- [1714C Minimum Varied Number /0807](https://codeforces.com/problemset/problem/1714/C)  
+- [1714B Remove Preflx](https://codeforces.com/problemset/problem/1714/B)
 ***
 
 #### 最短路徑問題
