@@ -2,7 +2,6 @@
 title: "Graph Dsu"
 date: 2022-08-08T22:56:21+08:00
 draft: false
-hero: /images/posts/writing-posts/graph.jpg
 menu:
   sidebar:
     name: graph dsu

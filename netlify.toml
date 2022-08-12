@@ -1,6 +1,6 @@
 [build]
 command = "hugo --gc --minify"
-publish = "public"
+publish = "private"
 
 [context.production.environment]
 HUGO_ENABLEGITINFO = "true"

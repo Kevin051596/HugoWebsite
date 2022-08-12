@@ -1,7 +1,6 @@
 ---
 title: "Graph Traversal"
 date: 2022-08-05T22:44:03+08:00
-hero: /images/posts/writing-posts/graph.jpg
 menu:
   sidebar:
     name: graph traversal

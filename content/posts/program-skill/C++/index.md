@@ -2,7 +2,6 @@
 title: "5 C++ Common Skills"
 date: 2022-08-07T21:05:13+08:00
 draft: false
-hero: /images/posts/writing-posts/C++.png
 menu:
   sidebar:
     name: 5 C++ Skills

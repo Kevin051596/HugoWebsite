@@ -1,14 +1,15 @@
 ---
-title: "Test for posting"
+title: "Problems between Git and Github"
 date: 2022-08-02T18:16:28+08:00
 description: Introduction to Sample Post
 draft: false
-hero: /images/posts/writing-posts/test.jpg
+hero: images/posts/writing-posts/git.png
 menu:
   sidebar:
-    name: Introduction
-    identifier: introduction
-    weight: 5
+    name: problems at git and github
+    identifier: git-management-problems-git-github
+    parent: git-management
+    weight: 10
 tags: ["Basic", "Multi-lingual"]
 categories: ["Basic"]
 ---

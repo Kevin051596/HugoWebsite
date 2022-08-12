@@ -1,7 +1,6 @@
 ---
 title: "Graph Structure"
 date: 2022-08-05T22:42:14+08:00
-hero: /images/posts/writing-posts/graph.jpg
 menu:
   sidebar:
     name: graph structure
