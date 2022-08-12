@@ -9,7 +9,7 @@ menu:
     weight: 10
 tags: ["Basic", "Multi-lingual"]
 categories: ["Basic"]
-draft: false
+draft: true
 ---
 
 Graph 中譯為圖，為一種用來記錄關係的方法  

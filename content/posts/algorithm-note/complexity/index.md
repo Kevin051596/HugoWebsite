@@ -9,6 +9,7 @@ menu:
     weight: 10
 tags: ["Basic", "Multi-lingual"]
 categories: ["Basic"]
+draft: true
 ---
 
 複雜度 主要用來分析一個演算法的計算能力與記憶體空間，
