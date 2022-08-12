@@ -23,31 +23,7 @@ Greedy algorithm 譯為貪心演算法，或稱貪婪法。
 
 #### Codeforces 練習題目
 [1714C Minimum Varied Number /0807](https://codeforces.com/problemset/problem/1714/C)
-```C++
-#include <bits/stdc++.h>
-using namespace std;
- 
- 
-int main(){
-	int t;
-	cin>>t;
-	while(t--){
-		int s;
-		cin>>s;
-		string ans = "";
-		for(int i=9;i>0;i--){
-			if(s == 0) break;
-			else if(s>=i){
-				s-=i;
-				ans += i+'0';
-			}
-		}
-		reverse(ans.begin(),ans.end());
-		cout<< ans <<"\n";
-	}
-	return 0;
-}
-```
+[1714B Remove Preflx](https://codeforces.com/problemset/problem/1714/B)
 ***
 
 #### 最短路徑問題
