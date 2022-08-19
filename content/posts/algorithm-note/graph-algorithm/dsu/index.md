@@ -14,6 +14,68 @@ categories: ["Basic"]
 
 ### Disjoint Set
 ***
+基本結構
+
+```C++
+#include <bits/stdc++.h>
+using namespace std;
+
+class UnionStart {
+
+	public:
+		vector<int> root, rank;
+		UnionStart(int s): root(s), rank(s) {
+			for(int i=0;i<s;i++){
+				root[i] = i;
+				rank[i] = 1;
+			}
+		}
+		
+		int find(int x){
+			if(x == root[x]) return x;
+			return root[x] = find(root[x]);
+		}
+	
+		void unionSet(int x,int y){
+			int rootX = find(x);
+			int rootY = find(y);
+			if(rootX != rootY){
+				if(rank[rootX]>rank[rootY]){
+					root[rootY] = rootX;
+				}else if(rank[rootX]<rank[rootY]){
+					root[rootX] = rootY;
+				}else{
+					root[rootY] = rootX;
+					rank[rootX] += 1;
+				}
+			}
+		}
+		
+		bool isConnect(int x, int y){
+			return find(x) == find(y);
+		}
+};
+
+int main(){
+	cout << boolalpha;
+	UnionStart ui(10);
+	int t, x, y;
+	ui.unionSet(1,3);
+	ui.unionSet(3,5);
+	ui.unionSet(7,9);
+	ui.unionSet(8,9);
+	ui.unionSet(1,8);
+	printf("How many tasks do you wnat to check?");
+	scanf("%d",&t);
+	while(t--){
+		cin>>x>>y;
+		cout<<ui.isConnect(x,y);
+		cout<<"\n";
+	}
+	return 0;
+}
+```
+
 ### 練習題
 ***
 [1702 Split Into Two Set](https://codeforces.com/problemset/problem/1702/E)
