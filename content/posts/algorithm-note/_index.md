@@ -1,5 +1,6 @@
 ---
 title: Algorithm Note
+draft: true
 menu:
   sidebar:
     name: Algorithm note
