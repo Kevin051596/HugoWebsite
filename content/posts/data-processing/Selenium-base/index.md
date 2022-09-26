@@ -89,5 +89,4 @@ browser.back() # 前往上一筆瀏覽紀錄/上一頁
 <!-- [CSDN Python combine Vue](https://blog.csdn.net/m0_38051293/article/details/101382493)   -->
 [Medium 動態網頁爬蟲第一道鎖 — Selenium教學：如何使用Webdriver、send_keys（附Python 程式碼）](https://reurl.cc/ERoZOR)  
 [Medium 動態網頁爬蟲第二道鎖 — Selenium教學：如何使用find_element(s)取得任何網頁上能看到的內容(附Python 程式碼)](https://reurl.cc/4po323)  
-[CSDN 內嵌 div 滾動](https://blog.csdn.net/LYX_WIN/article/details/119972741)  
 [Geeksforgeeks Selenium-tutorial](https://www.geeksforgeeks.org/selenium-python-tutorial/)
