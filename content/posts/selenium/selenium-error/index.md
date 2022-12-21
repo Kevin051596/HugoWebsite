@@ -35,4 +35,13 @@ from selenium.webdriver.support import expected_conditions as EC
 WebDriverWait(browser, 30).until(EC.presence_of_element_located((By.CLASS_NAME, 'image')))
 ```
 
+### 破解反爬蟲網頁
+我們可以先用正常手段進入後，查詢該 user agent 資訊，並將該資訊用於爬蟲的使用者資訊，以這個 user agent 資訊破解反爬蟲檢驗
+```Python
+user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42'
+opt = webdriver.EdgeOptions()
+opt.add_argument('--user-agent=%s' % user_agent)
+browser = webdriver.Edge(executable_path="msedgedriver.exe", options=opt)
+```
+
 ### 資料來源
